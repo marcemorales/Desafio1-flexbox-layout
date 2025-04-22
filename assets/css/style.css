@@ -15,16 +15,16 @@ body {
   height: 100vh;
 }
 
-/* SECCIÓN CONTACTOS */
+/* Sección Contactos */
 .contactos {
-  flex: 0 0 280px; /* solo basis, sin grow ni shrink */
+  flex: 0 0 280px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   border-right: 1px solid #ccc;
 }
 
-/* DATOS DEL USUARIO */
+/* Datos del usuario */
 .usuario {
   display: flex;
   justify-content: space-between;
@@ -50,10 +50,10 @@ body {
 
 .iconos i {
   margin-left: 10px;
-  cursor: pointer;
+  cursor: pointer; /* el dedito para sobresaltar */
 }
 
-/* BOTÓN NUEVO CHAT */
+/* Botón nuevo chat */
 .nuevo-chat {
   display: flex;
   justify-content: center;
@@ -68,10 +68,10 @@ body {
   border: none;
   border-radius: 8px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: pointer; /* el dedito para sobresaltar */
 }
 
-/* LISTA DE CONTACTOS */
+/* Lista de contactos */
 .lista-contactos {
   list-style: none;
   padding: 0 1rem;
@@ -87,7 +87,7 @@ body {
   gap: 10px;
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
-  cursor: pointer;
+  cursor: pointer; /* el dedito para sobresaltar */
 }
 
 .avatar {
@@ -111,7 +111,7 @@ body {
   color: #828485;
 }
 
-/* SECCIÓN PRINCIPAL */
+/* Sección principal */
 .principal {
   flex: 1;
   display: flex;
