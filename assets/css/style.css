@@ -15,7 +15,6 @@ body {
   height: 100vh;
 }
 
-/* Sección Contactos */
 .contactos {
   flex: 0 0 280px;
   background-color: #FFFFFF;
@@ -24,7 +23,6 @@ body {
   border-right: 1px solid #ccc;
 }
 
-/* Datos del usuario */
 .usuario {
   display: flex;
   justify-content: space-between;
@@ -53,7 +51,6 @@ body {
   cursor: pointer; /* el dedito para sobresaltar */
 }
 
-/* Botón nuevo chat */
 .nuevo-chat {
   display: flex;
   justify-content: center;
@@ -71,7 +68,6 @@ body {
   cursor: pointer; /* el dedito para sobresaltar */
 }
 
-/* Lista de contactos */
 .lista-contactos {
   list-style: none;
   padding: 0 1rem;
@@ -111,7 +107,6 @@ body {
   color: #828485;
 }
 
-/* Sección principal */
 .principal {
   flex: 1;
   display: flex;
